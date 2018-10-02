@@ -1,4 +1,10 @@
+# Introduction
+
 This is a NodeJS wrapper for the [ServrLink](https://servr.link) public API.
+
+# Installation
+
+This package is available in the npm repository. Install it by running `npm i servrlink-api` and then add it to your repository by adding `const servrlink = require('servrlink-api')` to the top of your NodeJS file.
 
 # Example  
 
