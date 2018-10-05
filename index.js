@@ -82,7 +82,7 @@ module.exports.getDiscordId = (baseUrl, uuid, callback) => {
   Retrieves the Minecraft UUID associated with a Discord account
   Returns a JSON object with 2 params:
     - success (Whether the request to the Registry was sucessful)
-    - id (The associated Minecraft UUID)
+    - uuid (The associated Minecraft UUID)
 */
 module.exports.getUUID = (baseUrl, id, callback) => {
   var url = baseUrl
